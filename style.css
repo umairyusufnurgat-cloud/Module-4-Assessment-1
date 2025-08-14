@@ -88,3 +88,21 @@ p {
   color: #555;
   font-size: 1.2em;
 }
+.accessory {
+  position: absolute;
+  cursor: grab;
+  width: 80px; /* Fixed size to prevent stretching */
+  height: auto;
+  transition: transform 0.2s ease;
+  z-index: 10;
+}
+
+.accessory:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 600px) {
+  .accessory {
+    width: 60px;
+  }
+}
+
