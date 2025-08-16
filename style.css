@@ -31,9 +31,9 @@ body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-.figure {
-  width: 10000px;
-  height: 500px;
+#figure_2 { 
+    position: absolute;
+    top: 100px;
 }
 
 
