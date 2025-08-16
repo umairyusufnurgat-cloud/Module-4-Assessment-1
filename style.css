@@ -31,6 +31,20 @@ body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
+h1 {
+  font-size: 42px;
+  color: #4A00E0;
+  text-shadow: 2px 2px 5px #aaa;
+  animation: bounce 1.5s infinite;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
 
 
 
